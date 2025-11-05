@@ -1,0 +1,32 @@
+# ---- Main Code ----
+print("------------------------------------------------------------")
+a = Triangle() 
+print(a)
+print(f"Perimeter : {a.perimeter()}")
+print(f"Right Angle Triangle? : {a.isRightAngled()}")
+print("------------------------------------------------------------")
+
+b = Triangle(2)
+print(b)
+print(f"Perimeter : {b.perimeter()}")
+print(f"Right Angle Triangle? : {b.isRightAngled()}")
+print("------------------------------------------------------------")
+
+c = Triangle(3, 4)
+print(c)
+print(f"Perimeter : {c.perimeter()}")
+print(f"Right Angle Triangle? : {c.isRightAngled()}")
+print("------------------------------------------------------------")
+
+d = Triangle(3, 4, 5)
+print(d)
+print(f"Perimeter : {d.perimeter()}")
+print(f"Right Angle Triangle? : {d.isRightAngled()}")
+print("------------------------------------------------------------")
+
+e = Triangle(d)
+print(e)
+print(f"Perimeter : {e.perimeter()}")
+print(f"Right Angle Triangle? : {e.isRightAngled()}")
+print("------------------------------------------------------------")
+print(f"No of Triangles: {Triangle.objectCount()}")
