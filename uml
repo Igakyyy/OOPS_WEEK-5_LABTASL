@@ -1,0 +1,24 @@
++-----------------------------------------------+
+|                   Triangle                    |
++-----------------------------------------------+
+| - _sideA : float                              |
+| - _sideB : float                              |
+| - _sideC : float                              |
+| - count  : int {class variable}               |
++-----------------------------------------------+
+| + __init__(*args)                             |
+|     (0 args) → sideA=2.0, sideB=3.0, sideC=4.0|
+|     (1 arg)  → sideA=value, sideB=value+1,    |
+|                 sideC=value+2                 |
+|     (2 args) → sideA=args[0], sideB=args[1],  |
+|                 sideC=5.0                     |
+|     (3 args) → sideA=args[0], sideB=args[1],  |
+|                 sideC=args[2]                 |
+| + sideA : float {property}                    |
+| + sideB : float {property}                    |
+| + sideC : float {property}                    |
+| + objectCount() : int {classmethod}           |
+| + perimeter() : float                         |
+| + isRightAngled() : bool                      |
+| + __str__() : str                             |
++-----------------------------------------------+
